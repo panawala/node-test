@@ -29,10 +29,10 @@ app.get('/', function (req, res) {
 app.get('/plays', function (req, res) {
     console.log(req.query)
     res.json([
-        {id: 11111, name: '场次1 from node'},
-        {id: 11112, name: '场次2 from node'},
-        {id: 11113, name: '场次3 from node'},
-        {id: 11114, name: '场次4 from node'}
+        {id: 11111, desc: '场次1 from node'},
+        {id: 11112, desc: '场次2 from node'},
+        {id: 11113, desc: '场次3 from node'},
+        {id: 11114, desc: '场次4 from node'}
     ]);
 });
 
